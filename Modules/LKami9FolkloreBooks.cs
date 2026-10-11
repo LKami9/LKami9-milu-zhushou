@@ -159,7 +159,7 @@ public sealed class LKami9FolkloreBooks : ModuleBase
                 DalamudServices.PluginLog.Debug(ex, $"[LKami9秘录助手] 读取 {book.Name} 状态失败");
             }
 
-            this.rows.Add(new Row(book, used, FindInBags(book.ItemId) is not null));
+            this.rows.Add(new Row(book, used, FindInBags(book.ItemId)));
         }
 
         this.ReadHoldings();
@@ -225,7 +225,7 @@ public sealed class LKami9FolkloreBooks : ModuleBase
         }
     }
 
-    private void ReadHoldings()
+    private unsafe void ReadHoldings()
     {
         var list = new List<Holding>();
 
