@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Modules": [
+    {
+      "InternalName": "LKami9FolkloreBooks",
+      "Name": "LKami9秘录助手",
+      "Author": "LKami9",
+      "Description": "列出已使用 / 未使用的传承录与秘籍，显示兑换材料、持有量与缺口，材料名可点击复制。",
+      "Version": "1.0.0",
+      "MinimumOmniVersion": "1.1.3.0",
+      "File": "Modules/LKami9FolkloreBooks.cs",
+      "Sha256": "7E455683130346B7947463D7E2ADAD8B0ACD70D35495FEEAF8D03144DC6BDAA2"
+    }
+  ]
+}
